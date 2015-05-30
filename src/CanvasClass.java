@@ -14,7 +14,7 @@ public class CanvasClass extends Canvas {
     public BufferedImage screen;
     public int[] screenArray;
     public int[] imageArray;
-    public Operator[] ops;
+    public static Operator[] ops;
 
     public CanvasClass(BufferedImage bi){
         image = bi;
