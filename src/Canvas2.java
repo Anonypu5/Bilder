@@ -33,7 +33,6 @@ public class Canvas2 extends Canvas implements Runnable{
         g.fillRect(0,0,getWidth(),getHeight());
         g.setColor(Color.yellow);
         for(int i = 0; i < height.length; i++){
-            System.out.println(i + "    " + height[i]);
             g.fillRect(i*10,(int)(180f-height[i]*3f),9,(int)(height[i]*3f));
         }
         g.setColor(Color.white);
