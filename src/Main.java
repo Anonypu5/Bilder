@@ -38,7 +38,7 @@ public class Main {
 
     public static void main(String[] args) {
         JFileChooser chooser = new JFileChooser();
-        FileNameExtensionFilter filter = new FileNameExtensionFilter("","jpg", "png");
+        FileNameExtensionFilter filter = new FileNameExtensionFilter("images","jpg", "png");
         chooser.setFileFilter(filter);
         chooser.showOpenDialog(null);
         File file = chooser.getSelectedFile();
